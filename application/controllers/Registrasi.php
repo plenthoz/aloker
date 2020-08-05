@@ -45,7 +45,7 @@ class Registrasi extends CI_Controller {
 			$user = [
 				'username'=> $this->input->post('username'),
 				'password'=> password_hash($this->input->post('password'), PASSWORD_DEFAULT),
-				'level' => 'pelamar',
+				'level' => 'Pelamar',
 				'active' => '0',
 			];
 
